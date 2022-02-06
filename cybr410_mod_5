@@ -14,4 +14,4 @@ print ("-- pytech collection list --")
 
 print(db.list_collection_names())
 
-print ("This is the end of program sucka, press any key to exit.. ")
+print ("\nThis is the end of program sucka, press any key to exit.. ")
