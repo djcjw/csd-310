@@ -26,10 +26,11 @@ for doc in student_list:
 
 # find document by student_id
 deb = collection.find_one({"student_id": "1008"})
-
+#testing
 # output the results 
 print("\n  -- DISPLAYING STUDENT DOCUMENT FROM find_one() QUERY --")
 print("  Student ID: " + deb["student_id"] + "\n  First Name: " + deb["first_name"] + "\n  Last Name: " + deb["last_name"] + "\n")
 
 # exit message 
 input("\n\n  End of program, press any key to exit... ")
+
