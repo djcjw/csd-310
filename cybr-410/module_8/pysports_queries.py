@@ -5,9 +5,9 @@ from mysql.connector import errorcode
 
 """ database config object """
 config = {
-    "user": "pysports_user",
+    "user": "root",
     "password": "DJChrisW2237!",
-    "localhost": "3306",
+    "host": "localhost",
     "database": "pysports",
     "raise_on_warnings": True
 }
