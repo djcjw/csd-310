@@ -4,9 +4,9 @@ from mysql.connector import errorcode
 
 """ database config object """
 config = {
-    "user": "pysports_user",
-    "password": "MySQL8IsGreat!",
-    "host": "127.0.0.1",
+    "user": "root",
+    "password": "DJChrisW2237!",
+    "host": "localhost",
     "database": "pysports",
     "raise_on_warnings": True
 }
