@@ -122,4 +122,3 @@ INSERT INTO wishlist(user_id, book_id)
         (SELECT book_id FROM book WHERE book_name = 'Spymasters Prism: The Fight against Russian Aggression')
     );
 
---That is the end!
